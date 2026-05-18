@@ -14,3 +14,21 @@ Automatic merge failed; fix conflicts and then commit the result.
 ~~~
 logo após, uma caixa se abriu para resolver o conflito manualmente, onde aparareceram as linhas que estavam sobrepostas.
 apenas aceitei ambas e elas se uniram na Main, ficando em linhas separadas.
+
+
+## Git log (nível desafio)
+
+~~~
+* 613d5ad (HEAD -> main, origin/main, origin/HEAD) Adição da explicação do conflito no README
+*   ba77a2b Merge da feature/good-morning-world, e fix: conflito durante a merge no README
+|\  
+| * d789a0a (feature/good-moorning-world) Adicionando um boa noite no readme para simular um conflito intencional
+| * 7364f81 feat: adiciona função de good morning wolrd em repetição
+* |   8ab93a1 Merge da feature/hello-world, e fix: conflito no README solucionado
+|\ \  
+| * | e95cccd (feature/hello-world) feat: adicionando o bom dia no readme para simular o conflito
+| |/  
+:
+~~~
+
+**Tentei fazer o nível desafio**
