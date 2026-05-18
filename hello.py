@@ -2,3 +2,7 @@
 def(n):
     for i in range(n+1):
         print("Hello World")
+
+def(n):
+    for i in range(n+1):
+        print("Good Morning World")
